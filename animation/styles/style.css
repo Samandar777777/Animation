@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1440px;
+    min-height: 100vh;
+    margin: 0px auto;
+    background-image: url('../images/sky.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.airplane{
+    width: 200px;
+    transition: 6s;
+    position: absolute;
+    animation-name: airplane;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-transition: 6s;
+    -moz-transition: 6s;
+    -ms-transition: 6s;
+    -o-transition: 6s;
+}
+
+@keyframes airplane {
+    0%{
+        bottom: 0%;
+        left: 0%;
+        position: absolute;
+
+    }
+    10%{
+        bottom: 10%;
+        left: 10%;
+        position: absolute;
+
+    }
+    15%{
+        bottom: 5%;
+        left: 15%;
+        position: absolute;
+
+    }
+    20%{
+        position: absolute;
+        bottom: 20%;
+        left: 20%;
+    }
+    25%{
+        position: absolute;
+        bottom: 15%;
+        left: 25%;
+    }
+    30%{
+        position: absolute;
+        bottom: 30%;
+        left: 30%;
+    }
+    35%{
+        position: absolute;
+        bottom: 25%;
+        left: 35%;
+    }
+    40%{
+        position: absolute;
+        bottom: 40%;
+        left: 40%;
+    }
+    45%{
+        position: absolute;
+        bottom: 35%;
+        left: 45%;
+    }
+    50%{
+        position: absolute;
+        bottom: 50%;
+        left: 50%;
+    }
+    55%{
+        position: absolute;
+        bottom: 45%;
+        left: 55%;
+    }
+    60%{
+        position: absolute;
+        bottom: 60%;
+        left: 60%;
+    }
+    65%{
+        position: absolute;
+        bottom: 55%;
+        left: 65%;
+    }
+    70%{
+        position: absolute;
+        bottom: 70%;
+        left: 70%;
+    }
+    75%{
+        position: absolute;
+        bottom: 65%;
+        left: 75%;
+    }
+    80%{
+        position: absolute;
+        bottom: 80%;
+        left: 80%;
+    }
+    85%{
+        position: absolute;
+        bottom: 75%;
+        left: 85%;
+    }
+    90%{
+        position: absolute;
+        bottom: 90%;
+        left: 90%;
+    }
+    95%{
+        position: absolute;
+        bottom: 85%;
+        left: 95%;
+    }
+    100%{
+        bottom: 100%;
+        left: 100%;
+    }
+}
